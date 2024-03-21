@@ -2,8 +2,7 @@
 import time
 import atexit
 import json
-from flask import Flask
-import jsonify, requests
+from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 employees = [
